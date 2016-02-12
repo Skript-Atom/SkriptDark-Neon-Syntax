@@ -1,0 +1,157 @@
+.source.skript {
+  .keyword {
+    &.else.skript {
+      color: @else;
+      text-decoration: underline;
+    }
+    &.type {
+      &.player.skript {
+        color: @player-types;
+      }
+      &.entity.skript {
+        color: @entity-types;
+      }
+      &.cmd.skript {
+        color: @command-types;
+      }
+      &.direction.skript {
+        color: @direction-types;
+      }
+      &.potion.skript {
+        color: @potion-types;
+      }
+      &.enchant.skript {
+        color: @enchantment-types;
+      }
+      &.loop.skript {
+        color: @loop-types;
+      }
+      &.event.skript {
+        color: @event-types;
+      }
+      &.timespan.skript {
+        color: @timespan-types;
+      }
+    }
+    &.mccolor {
+      &.black.skript {
+        color: @mc-black;
+      }
+      &.dark_blue.skript {
+        color: @mc-dark_blue;
+      }
+      &.dark_green.skript {
+        color: @mc-dark_green;
+      }
+      &.dark_aqua.skript {
+        color: @mc-dark_aqua;
+      }
+      &.dark_red.skript {
+        color: @mc-dark_red;
+      }
+      &.dark_purple.skript {
+        color: @mc-dark_purple;
+      }
+      &.gold.skript {
+        color: @mc-gold;
+      }
+      &.gray.skript {
+        color: @mc-gray;
+      }
+      &.dark_gray.skript {
+        color: @mc-dark_gray;
+      }
+      &.blue.skript {
+        color: @mc-blue;
+      }
+      &.green.skript {
+        color: @mc-green;
+      }
+      &.aqua.skript {
+        color: @mc-aqua;
+      }
+      &.red.skript {
+        color: @mc-red;
+      }
+      &.light_purple.skript {
+        color: @mc-light_purple;
+      }
+      &.yellow.skript {
+        color: @mc-yellow;
+      }
+      &.white.skript {
+        color: @mc-white;
+      }
+      &.bold.skript {
+        color: @text;
+        font-weight: bold;
+      }
+      &.strikethrough.skript {
+        color: @text;
+        text-decoration: line-through;
+      }
+      &.underline.skript {
+        color: @text;
+        text-decoration: underline;
+      }
+      &.italic.skript {
+        color: @text;
+        font-style: italic;
+      }
+    }
+    &.addon {
+      &.event {
+        color: @event;
+        text-decoration: underline;
+      }
+      &.type {
+        color: @types;
+      }
+      &.condition {
+        color: @condition;
+      }
+      &.effect {
+        color: @effect;
+      }
+      &.expression {
+        color: @expression;
+      }
+    }
+  }
+  .constant {
+    &.character.escape.skript {
+      color: @text;
+    }
+    &.numeric.skript {
+      color: @number;
+    }
+  }
+  .variable {
+    &.temp.skript {
+      color: @tempvar;
+      text-shadow: 0px 0px 15px rgba(27, 228, 194, 0.9);
+    }
+    &.normal.skript {
+      color: @var;
+    }
+    &.exprwrap.skript {
+      color: @exprwrap;
+    }
+    &.option.skript {
+      color: @option;
+      text-shadow: 0px 0px 15px rgba(228, 29, 62, 0.9);
+    }
+  }
+  .string.text.skript {
+    color: @text;
+  }
+  .comment {
+    &.hash.skript {
+      color: @comment-hash;
+      font-style: italic;
+    }
+    &.mark.skript{
+      color: @comment-mark;
+    }
+  }
+}

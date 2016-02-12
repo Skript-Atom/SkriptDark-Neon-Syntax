@@ -1,2 +1,3 @@
-# SkriptDark-Neon-Syntax
-Dark Neon Theme for Skript - http://forums.skunity.com/t/1751 https://atom.io/themes/skriptdark-neon-syntax
+# SkriptDark Syntax Theme for SkriptDark for Atom (Using OneDark as a main theme!)
+
+![A screenshot of your theme](https://i.imgur.com/eY4ZOzG.jpg?1)

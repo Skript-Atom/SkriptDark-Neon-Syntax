@@ -1,0 +1,43 @@
+.source.java {
+  .storage {
+    &.modifier.import {
+      color: @hue-6-2;
+    }
+
+    &.type {
+      color: @hue-6-2;
+    }
+  }
+}
+
+.source.java-properties {
+  .meta.key-pair {
+    color: @hue-5;
+
+    & > .punctuation {
+      color: @mono-1;
+    }
+  }
+}
+
+.source.json {
+  .meta.structure.dictionary.json {
+    & > .string.quoted.json {
+      & > .punctuation.string {
+        color: @hue-5;
+      }
+      color: @hue-5;
+    }
+  }
+
+  .meta.structure.dictionary.json, .meta.structure.array.json {
+    & > .value.json > .string.quoted.json,
+    & > .value.json > .string.quoted.json > .punctuation {
+      color: @hue-4;
+    }
+
+    & > .constant.language.json {
+      color: @hue-1;
+    }
+  }
+}
